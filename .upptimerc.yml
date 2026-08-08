@@ -13,9 +13,31 @@ status-website:
   introTitle: "Lightning CV status"
   introMessage: Live availability for the Lightning CV website and app. Checks run every five minutes from GitHub Actions and this page is served by GitHub Pages, so it stays up even when the thing it is reporting on does not.
   logoUrl: https://lightningcv.io/brand/logo-icon.png
-  themeConfig:
-    colors:
-      brand: "#1F5FA8"
+  # Lightning CV is light-only, so this is too: the overrides below are
+  # unconditional and beat both themes/light.css and themes/dark.css, which
+  # Upptime links behind prefers-color-scheme. A visitor in dark mode gets the
+  # brand rather than a teal page that looks like a different company.
+  #
+  # Tokens are the site's own, from src/layouts/Page.astro: paper #F7F6F3,
+  # blue #1F5FA8, hairline #E3E3DD, ink #1C2024. Up, down and degraded keep
+  # Upptime's colours, because those mean something and blue does not.
+  theme: light
+  css: >-
+    :root {
+    --body-background-color: #f7f6f3;
+    --body-text-color: #1c2024;
+    --card-background-color: #ffffff;
+    --card-border-color: #e3e3dd;
+    --nav-background-color: #ffffff;
+    --nav-border-bottom-color: #e3e3dd;
+    --nav-current-border-bottom-color: #1f5fa8;
+    --submit-button-background-color: #1f5fa8;
+    --submit-button-border-color: #17497f;
+    --submit-button-color: #ffffff;
+    --error-button-background-color: #1f5fa8;
+    --error-button-border-color: #17497f;
+    --error-button-color: #ffffff;
+    }
   navbar:
     - title: Status
       href: /
