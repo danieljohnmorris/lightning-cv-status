@@ -38,10 +38,18 @@ status-website:
     --error-button-border-color: #17497f;
     --error-button-color: #ffffff;
     }
+    /* Upptime's own footer credit. Its only class is a Svelte build hash that
+       changes between releases, so the element is targeted instead. Hidden
+       rather than removed: the repository is still public and the licence is
+       still honoured, it just does not need to be the last thing a visitor
+       reads on a status page. */
+    body footer {
+    display: none;
+    }
   navbar:
     - title: Status
       href: /
-    - title: Lightning CV
+    - title: Back to Lightning CV
       href: https://lightningcv.io
 
 assignees:
