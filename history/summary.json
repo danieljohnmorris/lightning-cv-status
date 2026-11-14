@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.27%",
     "uptimeYear": "99.77%",
-    "time": 900,
-    "timeDay": 512,
-    "timeWeek": 608,
-    "timeMonth": 1433,
-    "timeYear": 900,
+    "time": 896,
+    "timeDay": 520,
+    "timeWeek": 585,
+    "timeMonth": 1427,
+    "timeYear": 896,
     "dailyMinutesDown": {
       "2026-11-05": 319
     }
@@ -25,16 +25,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/app.lightningcv.io.ico",
     "slug": "app",
     "status": "up",
-    "uptime": "99.77%",
+    "uptime": "99.78%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.28%",
-    "uptimeYear": "99.77%",
-    "time": 1604,
-    "timeDay": 1339,
-    "timeWeek": 1339,
-    "timeMonth": 1693,
-    "timeYear": 1604,
+    "uptimeYear": "99.78%",
+    "time": 1600,
+    "timeDay": 1153,
+    "timeWeek": 1293,
+    "timeMonth": 1680,
+    "timeYear": 1600,
     "dailyMinutesDown": {
       "2026-11-05": 314
     }
