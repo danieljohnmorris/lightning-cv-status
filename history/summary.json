@@ -5,16 +5,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/lightningcv.io.ico",
     "slug": "website",
     "status": "up",
-    "uptime": "99.78%",
+    "uptime": "99.79%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.27%",
-    "uptimeYear": "99.78%",
-    "time": 880,
-    "timeDay": 700,
-    "timeWeek": 542,
-    "timeMonth": 1410,
-    "timeYear": 880,
+    "uptimeYear": "99.79%",
+    "time": 877,
+    "timeDay": 556,
+    "timeWeek": 548,
+    "timeMonth": 1299,
+    "timeYear": 877,
     "dailyMinutesDown": {
       "2026-11-05": 319
     }
@@ -30,11 +30,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.28%",
     "uptimeYear": "99.79%",
-    "time": 1587,
-    "timeDay": 1461,
-    "timeWeek": 1302,
-    "timeMonth": 1644,
-    "timeYear": 1587,
+    "time": 1582,
+    "timeDay": 1100,
+    "timeWeek": 1268,
+    "timeMonth": 1515,
+    "timeYear": 1582,
     "dailyMinutesDown": {
       "2026-11-05": 314
     }
